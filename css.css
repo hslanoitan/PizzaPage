@@ -1,0 +1,111 @@
+body {
+    background-image: url("files/pizza.jpg");
+    background-repeat: repeat;
+    background-size: 1920x 1080px;
+    background-color: black;
+    
+}
+
+header {
+    font-size: 75px;
+    text-align:left;
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    inline-size: 450px;
+    font-style:italic;
+}
+
+form, fieldset{
+    text-align: left;
+}
+
+h3#order, h3#contact, h3#payment {
+    font-size: 55px;
+}
+
+h3#size, h3#type, h3#drink, h3#toppings{
+    font-size: 25px;
+    font-weight:bolder;
+    padding: 20px;
+    background-color: rgb(128, 128, 128, 0.3);
+    inline-size: 275px;
+    border-radius: 500px;
+}
+
+form, fieldset{
+    font-size: 18px;
+    position:relative;
+    left:8px; bottom:20px;
+    
+    background-color: rgb(255, 255, 255);
+    
+
+}
+form#size, form#drink, form#type, fieldset#toppings{
+    inline-size: 275px;
+}
+
+fieldset{
+    border: none;
+}
+
+h3#type, form#type{
+    position: relative;
+    bottom: 140px; left: 325px;
+}
+
+form#type{
+    bottom: 160px;
+    left: 335px;
+}
+
+h3#drink, form#drink{
+    position: relative;
+    bottom: 175px;
+}
+form#drink{
+    bottom: 195px;
+}
+
+h3#toppings{
+    position: relative;
+    bottom: 315px;
+    left: 325px;
+}
+
+fieldset#toppings{
+    position: relative;
+    bottom: 335px;
+    left: 325px;
+}
+
+div#order{
+    position: relative;
+    bottom: 50px;
+}
+
+h3#contact{
+    position: relative;
+    bottom: 430px;
+}
+
+div#contact{
+    position: relative;
+    bottom: 460px;
+    inline-size:180px;
+    
+}
+
+input#fname, input#lname, input#Address1, input#Address2, Input#Postcode, input#telephone{
+    inline-size: 400px;
+}
+div#payment{
+    position: relative;
+    bottom: 580px;
+}
+
+h3#payment{
+    position: relative;
+    bottom: 540px;
+}

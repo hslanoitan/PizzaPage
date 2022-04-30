@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grant's Pizza Website!</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <header>Grant's Pizza!</header>
+  </head>
+  <body>
+    <h3 id="order">Place your order:</h3>
+    <div id=order>
+    <h3 id="size">Select your size:</h3>
+    <form id="size">
+      <input type="radio" id="Small" name="PizzaSize" value="Small" />
+      <label for="Small">Small</label>
+      <input type="radio" id="Medium" name="PizzaSize" value="Medium" />
+      <label for="Medium">Medium</label>
+      <input type="radio" id="Large" name="PizzaSize" value="Large" />
+      <label for="Large">Large</label>
+    </form>
+    <h3 id="type">Select your pizza:</h3>
+    <form id="type">
+      <input type="radio" id="Margherita" name="PizzaType" value="Margherita" />
+      <label for="Margherita">Margherita</label>
+      <input type="radio" id="Pepperoni" name="PizzaType" value="Pepperoni" />
+      <label for="Pepperoni">Pepperoni</label>
+    </form>
+    <h3 id="drink">Select your drink:</h3>
+    <form id="drink">
+      <input type="radio" id="Coke" name="DrinkType" value="Coke" />
+      <label for="Coke">Coke</label>
+      <input type="radio" id="Coke Zero" name="DrinkType" value="Coke Zero" />
+      <label for="Coke Zero">Coke Zero</label>
+      <input type="radio" id="Pepsi" name="DrinkType" value="Coke" />
+      <label for="Pepsi">Pepsi</label>
+    </form>
+    <h3 id="toppings">Choose your toppings:</h3>
+    <fieldset id="toppings">
+      <div id="toppings">
+        <input type="checkbox" id="Chicken" name="Chicken" />
+        <label for="Chicken">Chicken</label>
+        <input type="checkbox" id="Beef" name="Beef" />
+        <label for="Beef">Beef</label>
+        <input type="checkbox" id="Pepperoni" name="Pepperoni" checked />
+        <label for="Pepperoni">Pepperoni</label></br>
+        <input type="checkbox" id="Sweetcorn" name="Sweetcorn" />
+        <label for="Sweetcorn">Sweetcorn</label>
+        <input type="checkbox" id="Pepper" name="Pepper" />
+        <label for="Pepper">Pepper</label>
+      </div>
+    </fieldset>
+    </div>
+    <h3 id="contact">Delivery details:</h3>
+    <div id="contact">
+      <form>
+        <label for="fname">First name:</label></br>
+        <input type="text" id="fname" name="fname"></br>
+        <label for="lname">Last name:</label></br>
+        <input type="text" id="lname" name="lname"></br>
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Address" required></textarea>
+        <label for="Telephone">Telephone</label></br>
+        <input type="text" id="Telephone" name="Telephone"></br>
+      </form> 
+    </div>
+    <h3 id="payment">Payment Details:</h3>
+    <div id="payment">
+      <input type="radio" id="PayOnline" name="PayOnline" value="PayOnline" />
+      <label for="PayOnline">Pay Online</label>
+      <input type="radio" id="PayCollect" name="PayCollect" value="PayCollect" />
+      <label for="PayCollect">Pay On Collection</label>
+      <h3>Card Details:</h3>
+      <label for="cardno">Card Number:</label></br>
+      <input type="text" id="cardno" name="cardno"></br>
+      <input type="submit" Value="Submit Your Order" url="google.com">
+    </div>
+  </body>
+</html>
